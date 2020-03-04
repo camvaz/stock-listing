@@ -1,0 +1,26 @@
+
+.def-stock{
+    height: 100vh;
+    background: #f1f1f1;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    
+    p{
+        font-size: 1em;
+        width:80%;
+        margin: 30px auto;
+    }
+    h1{
+        margin: 30px auto 20px;
+    }
+    h2{
+        font-size: 1em;
+        margin: 0 auto;
+    }
+    img{
+        width:120px;
+        margin:100px auto 0;
+    }
+}
