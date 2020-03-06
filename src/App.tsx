@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaSearch, FaListUl } from "react-icons/fa";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 // import {APIProfiles} from "./models/APIProfiles";
 import { Search } from "./components/Search";
@@ -13,7 +12,7 @@ export const App: () => JSX.Element = () => {
   const [data, setData] = useState({
     companyProfiles: [{ profiles: [], symbol: "" }]
   });
-  
+
   const url = "https://financialmodelingprep.com/api/v3/company/profile/";
   const stock = "AAPL,FB,TWTR,AMZN,MSFT,TSLA,GOOGL,DB,GS,CSCO,AMD";
 

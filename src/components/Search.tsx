@@ -25,6 +25,7 @@ export const Search: (props:any) => JSX.Element = (props) => {
     <div className="app">
       <h1 className='title animated fadeIn'>Stock listing</h1>
       <input
+        placeholder="Search..."
         type="text"
         className="animated slideInDown"
         onChange={handleChange}

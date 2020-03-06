@@ -17,8 +17,8 @@ export const Stock: (props: any) => JSX.Element = props => {
       <div className="def-stock ">
         <img className={animate('fadeInUp fast')} src={companies.profile?.image} alt="stock" />
         <h1 className={animate('fadeInUp fast')}>{companies.symbol}</h1>
-        <h2 className={animate('fadeIn')}>{companies.profile?.companyName} - ${companies.profile?.price}</h2>
-        <p className={animate('fadeIn')}>
+        <h2 className={fadeIn}>{companies.profile?.companyName} - ${companies.profile?.price}</h2>
+        <p className={fadeIn}>
           <b>Description: </b> {companies.profile?.description}
         </p>
       </div>
